@@ -16,7 +16,7 @@ RUN npm run build --prod
 FROM nginx:alpine
 COPY --from=build /app/dist/tpfoyerangular /usr/share/nginx/html
 
-# Exposer le port 86
-EXPOSE 86
+# Exposer le port 80
+EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
