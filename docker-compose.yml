@@ -41,6 +41,10 @@ services:
         "spring.jpa.hibernate.ddl-auto": "update"
       }'
   # Frontend application service
+  front:
+    image: benghalba/front:4
+    ports:
+      - "80:80"
 
 volumes:
   db :
