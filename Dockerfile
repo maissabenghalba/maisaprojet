@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8087
-ADD target/Foyer-0.0.1.jar Foyer-0.0.1.jar
-ENTRYPOINT ["java","-jar","/Foyer-0.0.1.jar"]
+ADD target/Foyer-1.0.2.jar Foyer-1.0.2.jar
+ENTRYPOINT ["java","-jar","/Foyer-1.0.2.jar"]
