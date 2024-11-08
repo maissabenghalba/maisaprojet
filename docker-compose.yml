@@ -42,9 +42,9 @@ services:
       }'
   # Frontend application service
   front:
-    image: benghalba/front:7
+    image: benghalba/front:8
     ports:
-      - "86:86"
+      - "80:80"
 
 volumes:
   db :
